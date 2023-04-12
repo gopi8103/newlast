@@ -42,6 +42,11 @@ public class TestNg {
 			 driver=new EdgeDriver();
 			 
 		}
+		if(browserName.equals("Firefox"))
+		{
+			System.setProperty("webdriver.gecko.driver","C:\\Users\\gopik\\Downloads\\selenium\\geckodriver-v0.32.2-win32\\geckodriver.exe");
+			 driver=new FirefoxDriver();
+		}
 		
 	/*	if(browserName.equals("Firefox"))
 		{
