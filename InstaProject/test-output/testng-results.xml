@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-01T11:55:07 IST" name="Suite" finished-at="2023-04-01T11:55:20 IST" duration-ms="13262">
+    <groups>
+    </groups>
+    <test started-at="2023-04-01T11:55:07 IST" name="EdgeTest" finished-at="2023-04-01T11:55:20 IST" duration-ms="13045">
+      <class name="testNgpack.TestNg">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testNgpack.TestNg@7334aada]" started-at="2023-04-01T11:55:07 IST" name="openBrowser" finished-at="2023-04-01T11:55:10 IST" duration-ms="3283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNgpack.TestNg@7334aada]" started-at="2023-04-01T11:55:10 IST" name="beforeClass" finished-at="2023-04-01T11:55:11 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNgpack.TestNg@7334aada]" started-at="2023-04-01T11:55:11 IST" name="beforeMethod" finished-at="2023-04-01T11:55:15 IST" duration-ms="4829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test()[pri:0, instance:testNgpack.TestNg@7334aada]" started-at="2023-04-01T11:55:15 IST" name="test" finished-at="2023-04-01T11:55:17 IST" duration-ms="1721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNgpack.TestNg@7334aada]" started-at="2023-04-01T11:55:17 IST" name="beforeMethod" finished-at="2023-04-01T11:55:18 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNgpack.TestNg@7334aada]" started-at="2023-04-01T11:55:17 IST" name="afterMethod" finished-at="2023-04-01T11:55:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test1()[pri:0, instance:testNgpack.TestNg@7334aada]" started-at="2023-04-01T11:55:18 IST" name="test1" finished-at="2023-04-01T11:55:20 IST" duration-ms="1918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNgpack.TestNg@7334aada]" started-at="2023-04-01T11:55:20 IST" name="afterMethod" finished-at="2023-04-01T11:55:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNgpack.TestNg@7334aada]" started-at="2023-04-01T11:55:20 IST" name="afterClass" finished-at="2023-04-01T11:55:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="ClosedBrowser()[pri:0, instance:testNgpack.TestNg@7334aada]" started-at="2023-04-01T11:55:20 IST" name="ClosedBrowser" finished-at="2023-04-01T11:55:20 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedBrowser -->
+      </class> <!-- testNgpack.TestNg -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2023-04-01T11:55:07 IST" name="ChromeTest" finished-at="2023-04-01T11:55:20 IST" duration-ms="13262">
+      <class name="testNgpack.TestNg">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testNgpack.TestNg@5c30a9b0]" started-at="2023-04-01T11:55:07 IST" name="openBrowser" finished-at="2023-04-01T11:55:10 IST" duration-ms="3283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNgpack.TestNg@5c30a9b0]" started-at="2023-04-01T11:55:10 IST" name="beforeClass" finished-at="2023-04-01T11:55:11 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNgpack.TestNg@5c30a9b0]" started-at="2023-04-01T11:55:11 IST" name="beforeMethod" finished-at="2023-04-01T11:55:16 IST" duration-ms="5050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test()[pri:0, instance:testNgpack.TestNg@5c30a9b0]" started-at="2023-04-01T11:55:16 IST" name="test" finished-at="2023-04-01T11:55:17 IST" duration-ms="1597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNgpack.TestNg@5c30a9b0]" started-at="2023-04-01T11:55:17 IST" name="beforeMethod" finished-at="2023-04-01T11:55:18 IST" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNgpack.TestNg@5c30a9b0]" started-at="2023-04-01T11:55:17 IST" name="afterMethod" finished-at="2023-04-01T11:55:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test1()[pri:0, instance:testNgpack.TestNg@5c30a9b0]" started-at="2023-04-01T11:55:18 IST" name="test1" finished-at="2023-04-01T11:55:20 IST" duration-ms="2165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="ClosedBrowser()[pri:0, instance:testNgpack.TestNg@5c30a9b0]" started-at="2023-04-01T11:55:20 IST" name="ClosedBrowser" finished-at="2023-04-01T11:55:20 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedBrowser -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNgpack.TestNg@5c30a9b0]" started-at="2023-04-01T11:55:20 IST" name="afterClass" finished-at="2023-04-01T11:55:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNgpack.TestNg@5c30a9b0]" started-at="2023-04-01T11:55:20 IST" name="afterMethod" finished-at="2023-04-01T11:55:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNgpack.TestNg -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

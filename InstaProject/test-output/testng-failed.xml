@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testNgpack.TestNg">
+        <methods>
+          <include name="ClosedBrowser"/>
+          <include name="afterClass"/>
+          <include name="openBrowser"/>
+          <include name="test1"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="test"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNgpack.TestNg -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" name="OPeraTest(failed)">
+    <parameter name="browser" value="Opera"/>
+    <classes>
+      <class name="testNgpack.TestNg">
+        <methods>
+          <include name="ClosedBrowser"/>
+          <include name="afterClass"/>
+          <include name="openBrowser"/>
+          <include name="test1"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="test"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNgpack.TestNg -->
+    </classes>
+  </test> <!-- OPeraTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
